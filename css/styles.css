@@ -193,7 +193,7 @@ button:focus {
     color: var(--black);
 }
 .feature-list {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .text {
