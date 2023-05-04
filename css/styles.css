@@ -183,6 +183,7 @@ button:focus {
 .basic-roster {
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 .main-title {
     font-weight: 500;
@@ -193,7 +194,7 @@ button:focus {
     color: var(--black);
 }
 .feature-list {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .text {
